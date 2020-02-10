@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Requirement;
 
-class RequirementController extends Controller
+class TargetController extends Controller
 {
     public function getAllRequirements()
     {

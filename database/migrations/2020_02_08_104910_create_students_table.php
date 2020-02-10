@@ -19,7 +19,7 @@ class CreateStudentsTable extends Migration
             $table->string("last_name", 100);
             $table->string("email")->unique();
             $table->string("phone")->unique();
-            $table->string("Birthdate");
+            $table->string("birthdate");
             
             $table->timestamps();
 
